@@ -1,0 +1,35 @@
+img{
+    height: 330px;
+    width: 100%;
+}
+.carouselCaption{
+    font-family: airbnb;
+    font-size: 20px;
+    width: 220px;
+    text-align: left;
+    margin-top: -60px;
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 35px;
+}
+.backIcon{
+    position: absolute;
+    background-color: #EFC81A;
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    position: static;
+    width: 30px;
+    height: 30px;
+}
+
+.card{
+    text-decoration: none;
+}

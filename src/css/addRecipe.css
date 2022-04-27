@@ -1,0 +1,93 @@
+@font-face {
+    font-family: airbnb;
+    src: url('../font/AirbnbCereal_W_Md.otf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content .inputImage{
+    height: 170px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F6F5F4;
+    border-style: none;
+}
+.content .logo{
+    width: 90%;
+    margin-top: -140px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .logo .l{
+    height: 60px;
+    width: 60px;
+    background-image: url('../assets/logoPhoto.svg');
+}
+.content .logo .txt{
+    font-family: airbnb;
+    color: #666666;
+}
+.content .inputTitle{
+    font-family: airbnb;
+    height: 10px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F6F5F4;
+    border-style: none;
+}
+.content .inputIngredients{
+    font-family: airbnb;
+    height: 215px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F6F5F4;
+    border-style: none;
+}
+.content .inputVideo{
+    font-family: airbnb;
+    height: 30px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F6F5F4;
+    border-style: none;
+}
+.content .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .button{
+    font-family: airbnb;
+    height: 40px;
+    margin-top: 10px;
+    width: 400px;
+    size: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #EFC81A;
+    border-style: none;
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        margin-top: 0px;
+        height: 50px;
+    }
+}

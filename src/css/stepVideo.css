@@ -1,0 +1,18 @@
+.step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 46px;
+    width: 300px;
+    height: 80px; 
+    background-color: #EFC81A;
+    align-items: center;
+    border-radius: 20px;
+}
+.step:hover{
+    background-color: #bd9f1a;
+}
+.step img{
+    width: 26px;
+    height: 26px;
+}

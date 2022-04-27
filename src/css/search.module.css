@@ -1,0 +1,34 @@
+h4{
+    font-family: airbnb;
+    color: #3F3A3A;
+    height: 40px;
+    border-left: 10px solid #EFC81A;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.formSearch{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #EFEFEF;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.icon{
+    background-image: url('../assets/icon-lp.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+}
+.input{
+    font-family: airbnb;
+    background-color: #EFEFEF;
+    border-style: none;
+    width: 400px;
+    border-radius: 15px;
+}
+.input:focus{
+    outline-style: none;
+}

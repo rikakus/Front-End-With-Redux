@@ -1,0 +1,162 @@
+@font-face {
+    font-family: airbnb;
+    src: url('../font/AirbnbCereal_W_Md.otf');
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 42px;
+}
+ul{
+    font-family: airbnb;
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+.title{
+    font-size: 60px;
+    text-align: center;
+    color:#2E266F;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.content-img{
+    display: flex;
+    justify-content: center;
+}
+.content-img img{
+    width: 50%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.container .ingridients{
+    margin-bottom: 74px;
+}
+.ingridients ul li{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+}
+textarea{
+    font-family: airbnb;
+    display: block;
+    border-radius: 6px;
+    margin: 100px auto 75px;
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+    border: none;
+    background-color: #F6F5F4;
+    margin-bottom: 40px;
+    color: #666666;
+    resize: none;
+}
+textarea:focus{
+    outline: none;
+}
+
+.container form button{
+    color: white;
+    font-family: airbnb;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 426px;
+    height: 64px;
+    background-color: #EFC81A;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+.container form button:hover{
+    background-color: #bd9f1a;
+}
+.comment{
+    margin-bottom: 100px;
+    display: flex;
+}
+.comment .comment-text{
+    margin-left: 25px;
+}
+
+/* media screen on mobile*/
+@media screen and (max-width: 600px){
+
+
+    .container{
+        padding-left: 10px;
+    }
+
+    .header{
+        padding-left: 10px;
+    }
+
+    .header ul li{
+        padding-right: 10px;
+    }
+
+    .title{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .content-img img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .container .ingridients{
+        margin-bottom: 50px;
+    }
+
+    .ingridients ul li{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .card{
+        margin-bottom: 30px;
+        width: 200px;
+        height: 60px; 
+    }
+
+    .card img{
+        margin: 0 auto;
+        width: 20px;
+        height: 20px;
+    }
+
+    textarea{
+        margin: 50px auto 50px;
+        padding: 10px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .container form button{
+        width: 300px;
+        height: 50px;
+        margin-bottom: 50px;
+    }
+
+    .comment{
+        margin-bottom: 50px;
+    }
+
+    .footer{
+        padding:0px;
+    }
+
+    .footer ul{
+
+        padding-right: 50px;
+    }
+
+    .content ul li{
+        padding-right: 20px;
+    }
+}

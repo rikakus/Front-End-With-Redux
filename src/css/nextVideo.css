@@ -1,0 +1,27 @@
+.video{
+    height: 100px;
+    margin-bottom: 80px;
+}
+.video img{
+    height: 180px;
+}
+.name{
+    width: 70%;
+}
+.name a{
+    text-decoration: none;
+    color: #000000;
+    font-family: airbnb;
+}
+.from{
+    font-family: airbnb;
+    color: #AAAAAA;
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+.from a{
+    font-family: airbnb;
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: small;
+}

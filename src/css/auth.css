@@ -1,0 +1,122 @@
+.background .jumbotron{
+    height: 100vh;
+    position: relative;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background .jumbotron h3{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-family: airbnb;
+    color: #EFC81A;
+}
+.background .jumbotron h6{
+    font-family: airbnb;
+    color: #8692A6;
+    font-size: medium;
+}
+.background .jumbotron .form-group{
+    padding-top: 10px;
+    margin-left: -30px;
+}
+.background .jumbotron .form-group .titleInput{
+    font-family: airbnb;
+    color: #696F79;
+    margin: 9px;
+}
+.background .jumbotron .form-group .input{
+    border: none;
+    border: 1px solid #aaaaaa;
+    font-family: airbnb;
+    margin-left: 9px;
+    height: 45px;
+    width: 350px;
+    border-radius: 3px;
+}
+.background .jumbotron .form-group .input:focus{
+    outline-color: #EFC81A;
+}
+.background .check{
+    margin-top: 18px;
+    padding-right: 133px;
+    color: #8692A6;
+    display: flex;
+    flex-direction: row;
+}
+.background .check .checkbox{
+    accent-color: #EFC81A;
+    transform: scale(1.6);
+}
+.background .check .text{
+    font-family: airbnb;
+    margin-top: -2px;
+    margin-left: 10px;
+}
+.background .button{
+    border: none;
+    border: 1px solid #aaaaaa;
+    font-family: airbnb;
+    position: relative;
+    margin-left: -25px;
+    margin-top: 25px;
+    height: 45px;
+    width: 350px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #EFC81A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.background .button:focus{
+    outline-color: #EFC81A;
+    border: #EFC81A;
+}
+.background .button:hover{
+    background-color: #EFC81A;
+    border: #EFC81A;
+}
+.background .txt{
+    font-family: airbnb;
+    color: #8692A6;
+}
+.background .link a{
+    font-family: airbnb;
+    color: #EFC81A;
+    text-decoration: none;
+    margin-left: 7px;
+}
+.background .forget{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.background .forget a{
+    font-family: airbnb;
+    text-decoration: none;
+    color: #999999;
+    margin-left: 210px;
+    font-size: smaller;
+}
+.background .txt{
+    font-family: airbnb;
+    color: #8692A6;
+}
+@media screen and (max-width: 550px){
+    .background .photo{
+        display: none;
+    }
+    .background .jumbotron{
+        width: 100%;
+    }
+    .background .jumbotron .form-group .titleInput{
+        margin-left: 29px;
+    }
+    .background .jumbotron .form-group .input{
+        margin-left: 29px;
+    }
+}

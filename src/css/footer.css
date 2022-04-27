@@ -1,0 +1,36 @@
+@font-face {
+    font-family: airbnb;
+    src: url('../font/AirbnbCereal_W_Md.otf');
+}
+footer{
+    font-family: airbnb;
+    margin-top: 60px;
+    width: 100%;
+    background-color: #EFC81A;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+footer h1{
+    font-size:50px;
+    margin-bottom: 50px;
+    color: #2E266F;
+}
+.footer-content ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer p{
+    font-size: 24px;
+    margin-bottom: 100px;
+    color: #707070;
+    font-weight: 400;
+}
+
+.footer-content ul li{
+    color: #707070;
+    font-size: 16px;
+    padding-right: 30px;
+}
