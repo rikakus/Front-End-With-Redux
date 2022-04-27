@@ -1,3 +1,41 @@
+# Welcome to FOOD APP!
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## First
+### `npm i`
+To instal all package
+
+## Screenshot
+
+### Landing Page
+
+![Landing Page](/screenshot/landingpage.png)
+
+### Login
+
+![Login](/screenshot/login.png)
+
+### Register
+
+![Register](/screenshot/register.png)
+
+### Recipe
+
+![Recipe](/screenshot/recipe.png)
+
+### Add Recipe
+
+![AddRecipe](/screenshot/addrecipe.png)
+
+### Profile
+
+![Profile](/screenshot/profile.png)
+
+### Search
+
+![Search](/screenshot/search.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
