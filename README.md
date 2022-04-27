@@ -10,31 +10,31 @@ To instal all package
 
 ### Landing Page
 
-![Landing Page](/screenshot/landingpage.png)
+![Landing Page](/public/landingpage.png)
 
 ### Login
 
-![Login](/screenshot/login.png)
+![Login](/public/login.png)
 
 ### Register
 
-![Register](/screenshot/register.png)
+![Register](/public/register.png)
 
 ### Recipe
 
-![Recipe](/screenshot/recipe.png)
+![Recipe](/public/recipe.png)
 
 ### Add Recipe
 
-![AddRecipe](/screenshot/addrecipe.png)
+![AddRecipe](/public/addrecipe.png)
 
 ### Profile
 
-![Profile](/screenshot/profile.png)
+![Profile](/public/profile.png)
 
 ### Search
 
-![Search](/screenshot/search.png)
+![Search](/public/search.png)
 
 # Getting Started with Create React App
 
