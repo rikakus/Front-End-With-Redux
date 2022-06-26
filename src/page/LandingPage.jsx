@@ -64,7 +64,7 @@ export default function LandingPage() {
               {users ? (
                 <>
                   <UncontrolledDropdown>
-                    <DropdownToggle caret style={{backgroundColor: "#EFC81A", border: "none", color: "#2E266F"}}>{users.name}</DropdownToggle>
+                    <DropdownToggle caret style={{backgroundColor: "#EFC81A", border: "none", color: "#2E266F",marginRight: "10px"}}>{users.name}</DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem> <Link to="/profile"> setting </Link></DropdownItem>
                       <DropdownItem divider />

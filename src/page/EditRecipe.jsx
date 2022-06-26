@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../css/addRecipe.css";
@@ -20,10 +20,16 @@ const EditRecipe = () => {
     date: "2022-04-05",
     idUser: 0,
   });
+  const title = useRef({});
 
   useEffect(() => {
     const token = localStorage.getItem("token");
     dispatch(detailRecipe(id, token))
+    title.current['title'].focus()
+    title.current['title'].value = recipe.data.title;
+    console.log(title.current)
+    console.log(title.current)
+    // ingredients.current.value = recipe.data.ingredients;
   }, []);
 
   const submitForm = async () => {
@@ -31,24 +37,6 @@ const EditRecipe = () => {
     const userId = users.id;
     const token = localStorage.getItem("token");
     setForm({ ...form, idUser: userId });
-
-    // if(form.title === ""){
-    //   setForm({...form,title: recipe.data.title})
-    //   console.log(recipe.data.title)
-    //   console.log(form.title)
-    // }
-    // if(form.gambar === ""){
-    //   setForm({...form,gambar: recipe.data.photo})
-    //   console.log(recipe.data.photo)
-    // }
-    // if(form.video === ""){
-    //   setForm({...form,video: recipe.data.video})
-    //   console.log(recipe.data.video)
-    // }
-    // if(form.ingredients === ""){
-    //   setForm({...form,ingredients: recipe.data.ingredients})
-    //   console.log(recipe.data.ingredients)
-    // }
 
     const bodyFormData = new FormData();
 
@@ -98,6 +86,7 @@ const EditRecipe = () => {
                 type="text"
                 placeholder="title"
                 className="inputTitle col"
+                ref={title.current}
                 onChange={(e) => setForm({ ...form, title: e.target.value })}
               />
             </div>
