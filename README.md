@@ -132,7 +132,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Ian Pangestu - [@ianpangestu082](https://twitter.com/ianpangestu082) - ianpangestu082@gmail.com
 
-Project Link: [https://github.com/rikakus/Front-End-With-Redux](https://github.com/rikakus/Front-End-With-Redux)
+Project Link: [https://food-recipe-rikakus.vercel.app/](https://food-recipe-rikakus.vercel.app/)
 
 Link API:  [https://github.com/rikakus/Food-App-API](https://github.com/rikakus/Food-App-API)
 
