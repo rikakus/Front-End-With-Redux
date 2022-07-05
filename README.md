@@ -109,6 +109,10 @@ To get a local copy up and running follow these simple example steps.
 
 ![Profile](/public/profile.png)
 
+### Video
+
+![Video](/public/video.png)
+
 ### Search
 
 ![Search](/public/search.png)
